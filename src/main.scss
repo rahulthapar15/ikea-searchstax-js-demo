@@ -42,6 +42,12 @@ section {
     margin-right: 20px;
 }
 
+.searchstax-search-close{
+    background-image: url('./images/circle-xmark.svg') !important;
+    margin-right: 20px;
+    opacity: 0.5;
+}
+
 .searchstax-facets-container-desktop {
     margin-top: 60px;
     overflow-x: scroll;
