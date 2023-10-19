@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+
+    .navbar-left {
+        display: flex;
+        align-items: center;
+    }
+
+    a{
+        text-decoration: none;
+        margin: 0 15px;
+        color: #212121;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
+
+h2{
+    font-size: 14px;
+}

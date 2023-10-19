@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;600&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+  
+
+section {
+    width: 70%;
+}
+.wrapper{
+    padding: 20px 40px 0px;
+    margin: 0 auto;
+}
+
+.container {
+    border-bottom: thin solid #ddd;
+}
+
+.searchstax-search-input-container {
+    background-color: #DFDFDF;
+    padding: 10px 30px 5px 20px !important;
+    width: 80%;
+
+    input{
+        background-color: #DFDFDF;
+
+    }
+}
+
+.searchstax-search-icon{
+    background-image: url('./images/search.svg') !important;
+    width: 20px !important;
+    margin-right: 20px;
+}
+
+.searchstax-facets-container-desktop {
+    margin-top: 60px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.searchstax-facet-container{
+    padding-bottom: 0 !important;
+}
+
+.searchstax-facet-values-container {
+    display: flex !important;
+    gap: 20px;
+}
+
+.searchstax-facet-value-container {
+    cursor: pointer;
+    padding-bottom: 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 4px solid transparent;
+
+    &:hover {
+        opacity: 1;
+        border-bottom: 4px solid #0057AD;
+        
+    }
+
+    .searchstax-facet-value-label{
+        font-weight: 600 !important;
+    }
+    .searchstax-facet-value-count{
+        font-weight: 300 !important;
+    }
+
+    .searchstax-facet-value-label,
+    .searchstax-facet-value-count {
+        opacity: 0.7;
+        text-transform: capitalize !important;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.searchstax-facet-input {
+    display: none;
+}
+
+#search-feedback-container{
+    margin: 20px;
+}
+
+.searchstax-pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchstax-pagination-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+}
+
+.searchstax-pagination-next, .searchstax-pagination-previous {
+    background: #0057AD;
+    color: #fff !important;
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.selected {
+    color: #0057AD !important;
+}
+
