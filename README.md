@@ -1,5 +1,7 @@
 ## IKEA SearchStax UX JS Demo
 
+See Live Demo: [IKEA SearchStax UX-JS Demo](https://ikea-searchstax-demo.netlify.app/?searchstax[query]=*&searchstax[page]=1)
+
 ### Usage
 
 
